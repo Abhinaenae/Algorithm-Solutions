@@ -33,7 +33,9 @@ class Solution(object):
 ```
 
 ### Solution (Optimized Solution)
-Because a solution of `O(n^2)` is not efficient in time, one would have to wonder if it is possible to optimize the brute force solution. Using a HashSet to make it so that the solution improve to be in linear time, but also has a trade-off where the space complexity will be in linear time, instead of constant time.
+Because a solution of `O(n^2)` is not efficient in time, one would have to wonder if it is possible to optimize the brute force solution. Using a HashSet to make it so that the solution improves to be in linear time, but also has a trade-off where the space complexity will be in linear time, instead of constant time.
+
+You can create a HashSet, then for every element in nums, you can check if that element is already in the HashSet to return true, if not, you add the element into the HashSet. If this loop completes without returning true, then there is no duplicate in the array nums.
 - Time Complexity: `O(n)`
 - Space Complexity: `O(n)`
 ```
