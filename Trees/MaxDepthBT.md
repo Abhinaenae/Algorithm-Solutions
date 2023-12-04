@@ -48,7 +48,9 @@ class Solution:
 ```
 
 ### Solution 3: Iterative Depth-First-Search (DFS)
-An iterative DFS solution can be used along with the inclusion of a stack that processes the node and its children. You can get the depth of each node added onto the stack.
+An iterative DFS solution can be used along with the inclusion of a stack that processes the node and its children. You can get the depth of each node added to the stack.
+- Time Complexity: O(N)
+- Space Complexity(Worst Case): O(N)
 ```
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
