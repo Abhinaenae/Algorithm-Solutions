@@ -14,8 +14,6 @@ This is why I opted to use dynamic programming with tabulation to solve this pro
 Time Complexity: O(n)
 Space Complexity: O(1)
 
-
-I used a two-pointer approach, letting me go through only half the size of the linked list.
 ```
 class Solution:
     def climbStairs(self, n: int) -> int:
