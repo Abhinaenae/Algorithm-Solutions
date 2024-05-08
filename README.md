@@ -1,7 +1,6 @@
-# Leetcode Repository
+# Algorithms Solutions
 
-A compilation of my thought processes and answers to various data structures and algorithm problems given from sources including, but not limited to:
-- Leetcode
-- UTD Algorithmic Computing Club
-- Codewars
+A compilation of my thought processes and implementations of various data structures and algorithm problems.
 
+
+Each algorithm solved is placed into a folder with a self-explanatory name, corresponding to the type of technique used to solve it.
